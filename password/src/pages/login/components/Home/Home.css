@@ -1,0 +1,59 @@
+#app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#header{
+    font-weight: bold;
+    font-size: 50px;
+    color: #393A3A;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+  }
+  #container{
+      display: flex;
+      background-color: #E5E6F0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+      width: 70%;
+      border-radius: 20px;
+  }
+  #text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #393A3A;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #password {
+    width: 50%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #393A3A;
+    border: 0;
+    border-bottom: 1px solid #E5E6F0;
+    
+  }
+  #buttonHome{
+    height: 10%;
+    width: 15%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #0F0E0E;
+    border-radius: 5px;
+    text-align: center;
+    color:  #393A3A;
+    line-height: 200%;
+    text-decoration: none;
+}
