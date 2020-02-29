@@ -1,0 +1,36 @@
+----------------------- WEB -------------------
+
+ABORDAGENS 
+
+TRADICIONAL 
+	A cada requisição, o servidor retorna o conteúdo completo da página, contendo todo HTML e CSS
+	Portando, o back-end fica muito carregado
+	Assim, o front-end fica limitado para o browser, já que os app mobile e outros serviços extendor não reconhecem HTMl
+
+
+SPA (single-page applications)
+	As requisições trazem apenas dados como respostas e, com esses dados, o front-end pode preencer as informações em tela
+	O CSS, o HTML e o Javascript da parte do interface ficam no front-end/browser(no navegador do usuário), sendo ele o responsável por toda a parte visual
+	O back-end retorna apenas um JSON, permitindo que hajam mais do que apenas 1 front-end
+
+COMANDOS 
+	yarn start
+
+
+
+JSX (JAVASCRIPT + HTML)
+
+
+CONCEITOS REACT
+
+	COMPONENT - função que retorna algum conteudo HTML, CSS ou JavaScript
+		Bloco isolado que não interfere no restante da aplicação
+
+
+	ESTADO - informações mantidas pelo componente (lembrar: imutabilidade)
+
+
+	PROPRIEDADE - informações que um componente PAI passa para o componente FILHO
+
+
+- COMEÇAR PELA PARTE VISUAL E DEPOIS PARTIR PARA A FUNCIONAL
