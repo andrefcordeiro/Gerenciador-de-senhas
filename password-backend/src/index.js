@@ -4,7 +4,7 @@ const cors = require('cors')
 const routes = require('./routes')
 const app = express()
 
-mongoose.connect('mongodb+srv://trakinaj:Andre2015@cluster0-8nvii.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect(#insira seu banco de dados#, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
